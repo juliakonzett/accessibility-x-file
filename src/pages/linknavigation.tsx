@@ -1,13 +1,11 @@
 import LinkNavigation from '@/components/LinkNavigation';
 
-export default function NotFound() {
+export default function LinkNavigationPage() {
   return (
     <div className='mx-[25%] my-[10%] hyphens-auto'>
-      <h1 className='font-semibold text-6xl'>
-        Upps, da ist etwas schiefgelaufen!
-      </h1>
-      <h2 className='font-light text-2xl my-8'>
-        Diese Seite konnte nicht gefunden werden.
+      <h2 className='font-medium text-4xl'>
+        Das ist die Link Navigation Seite, welche sich öffnet wenn eine
+        entsprechende Link Navigation geklickt wird.
       </h2>
       <LinkNavigation
         id={'back-to-homepage'}
