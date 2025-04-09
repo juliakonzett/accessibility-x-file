@@ -2,7 +2,7 @@ import Button from '@/components/Button';
 
 export default function NotFound() {
   return (
-    <div className='m-36'>
+    <div className='mx-[25%] my-[10%] hyphens-auto'>
       <h1 className='font-semibold text-6xl'>
         Upps, da ist etwas schiefgelaufen!
       </h1>
