@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Barrierefreiheit',
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='de'>
-      <body>
+      <body className='flex min-h-screen flex-col'>
         <Navbar />
-        {children}
+        <main className='flex-grow'>{children}</main>
+        <Footer />
       </body>
     </html>
   );
