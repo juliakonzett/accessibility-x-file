@@ -17,7 +17,7 @@ export default function Button({
       aria-label={ariaLabel}
       tabIndex={0}
       onClick={() => router.push(route)}
-      className='font-medium bg-blue-950 text-white px-6 py-4 rounded-full transition-transform duration-300 ease-in-out hover:scale-110 inline-block'>
+      className='custom-focus font-medium bg-blue-950 text-white px-6 py-4 rounded-full transition-transform duration-300 ease-in-out hover:scale-110 inline-block'>
       {name}
     </button>
   );

@@ -37,7 +37,7 @@ export default function Footer() {
             tabIndex={0}
             href='#scaling'
             className='custom-focus'>
-            Skalierungsfunktioin
+            Skalierungsfunktion
           </Link>
           <Link
             aria-label={

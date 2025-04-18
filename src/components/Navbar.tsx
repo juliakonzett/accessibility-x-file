@@ -26,7 +26,7 @@ export default function Navbar() {
         tabIndex={0}
         href='#scaling'
         className='custom-focus'>
-        Skalierungsfunktioin
+        Skalierungsfunktion
       </Link>
       <Link
         aria-label={'Scrollt zum Abschnitt der Seite der Hochkontrastfunktion'}
