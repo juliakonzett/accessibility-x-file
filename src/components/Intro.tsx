@@ -22,7 +22,8 @@ export default function Intro() {
           <a
             aria-label='Öffnet die WCAG 2.2 in einem neuen Tab'
             target='blank'
-            className='underline underline-offset-4'
+            className='underline underline-offset-4 custom-focus'
+            tabIndex={0}
             href='https://www.w3.org/TR/WCAG22/'>
             hier
           </a>
@@ -33,7 +34,8 @@ export default function Intro() {
           <a
             aria-label='Öffnet das Barrierefreiheitsgesetz in einem neuen Tab'
             target='blank'
-            className='underline underline-offset-4'
+            tabIndex={0}
+            className='underline underline-offset-4 custom-focus'
             href='https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2023_I_76/BGBLA_2023_I_76.html'>
             hier
           </a>

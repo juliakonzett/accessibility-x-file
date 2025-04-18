@@ -7,3 +7,9 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .custom-focus {
+    @apply focus:outline-4 focus:outline-offset-2 focus:outline-red-500;
+  }
+}
