@@ -15,6 +15,7 @@ export default function Intro() {
         Ansatzes für die oben genannte Bachelorarbeit. <br />
         Diese Module werden entwickelt um die Barrierefreiheit im Web, mit den
         Standards der WCAG 2.2, darzustellen. <br />
+        <br />
         Die Standards und Richtlinien der Web Content Accessibility Guidelines
         (WCAG) 2.2 finden Sie{' '}
         <strong>
