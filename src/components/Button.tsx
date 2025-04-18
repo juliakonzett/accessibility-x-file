@@ -2,12 +2,10 @@
 import { useRouter } from 'next/navigation';
 
 export default function Button({
-  id,
   ariaLabel,
   route,
   name,
 }: {
-  id: string;
   ariaLabel: string;
   route: string;
   name: string;
@@ -16,7 +14,6 @@ export default function Button({
 
   return (
     <button
-      id={id}
       aria-label={ariaLabel}
       tabIndex={0}
       onClick={() => router.push(route)}

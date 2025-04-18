@@ -7,7 +7,6 @@ export default function LinkNavigatioinIntro() {
         Die Link Navigation mittels Next.js Link
       </h3>
       <LinkNavigation
-        id={'open-button-page'}
         ariaLabel={'Öffnet Button Seite in einem neuem Tab'}
         target={true}
         href={'/linknavigation'}

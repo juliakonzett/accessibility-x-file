@@ -13,7 +13,6 @@ export default function NotFound() {
         Diese Seite konnte nicht gefunden werden.
       </h2>
       <Button
-        id={'back-to-homepage'}
         ariaLabel={'Führt im selben Tab zurück zur Startseite'}
         route={'/'}
         name={'Zurück zur Startseite'}

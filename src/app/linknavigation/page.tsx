@@ -8,7 +8,6 @@ export default function LinkNavigationPage() {
         entsprechende Link Navigation geklickt wird.
       </h2>
       <Button
-        id={'back-to-homepage'}
         ariaLabel={'Führt im selben Tab zurück zur Startseite'}
         route={'/'}
         name={'Zurück zur Startseite'}
