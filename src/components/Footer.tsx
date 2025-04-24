@@ -5,26 +5,25 @@ export default function Footer() {
   return (
     <div className='footer px-[5%] py-[5%] hyphens-auto bg-blue-950 text-white flex flex-col gap-10'>
       <Link
-        aria-label='Öffnet Navigationsseite im gleichen Tab'
         href='/'
-        className='custom-focus flex flex-row gap-4 items-center'>
+        aria-label='Führt zurück zur Startseite'
+        className='custom-focus relative w-[3em] h-[2em]'>
         <Image
           src='/accessibility_logo.png'
           alt='Ein hellblaues Logo mit einem Rollstuhlfahrer Icon in der Mitte'
-          width={30}
-          height={20}
+          fill
+          style={{ objectFit: 'contain' }}
+          sizes='(max-width: 768px) 100vw, 3em'
         />
-        <h2 className='font-medium text-2xl'>
-          Auswirkungen des Barrierefreiheitsgesetzes
-        </h2>
       </Link>
+      <h2 className='text-2xl'>Auswirkungen des Barrierefreiheitsgesetzes</h2>
 
       <hr className='border border-white/20'></hr>
 
       <div className='flex flex-row justify-between w-full'>
         {/* Kontakt */}
         <div className='flex flex-col gap-2'>
-          <h4 className='text-2xl'>Kontakt</h4>
+          <span>Kontakt</span>
           <span>Julia Konzett</span>
           <span>jko9561@students.fhv.at</span>
           <span>Fachhochschule Vorarlberg</span>
