@@ -8,7 +8,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: calc(16px * var(--scale, 0.75));
+  font-size: calc(16px * var(--scale, 2));
 }
 
 body {

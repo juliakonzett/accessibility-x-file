@@ -16,7 +16,7 @@ export default function Footer() {
           sizes='(max-width: 768px) 100vw, 3em'
         />
       </Link>
-      <h2 className='text-2xl'>Auswirkungen des Barrierefreiheitsgesetzes</h2>
+      <h4 className='text-2xl'>Auswirkungen des Barrierefreiheitsgesetzes</h4>
 
       <hr className='border border-white/20'></hr>
 
