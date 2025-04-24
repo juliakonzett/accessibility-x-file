@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .custom-focus {
+    @apply focus:outline-4 focus:outline-offset-2 focus:outline-red-500;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,8 +14,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .custom-focus {
-    @apply focus:outline-4 focus:outline-offset-2 focus:outline-red-500;
-  }
+html.contrast,
+body.contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body.contrast .functions-bar {
+  background-color: #000 !important;
+  color: #ffff00 !important;
+}
+
+body.contrast .navbar,
+body.contrast .footer {
+  background-color: #000 !important;
+  color: #ffffff !important;
+}
+
+body.contrast a,
+body.contrast span,
+body.contrast h4 {
+  color: #ffff00 !important;
+}
+
+body.contrast img {
+  filter: invert(100%) brightness(150%);
 }

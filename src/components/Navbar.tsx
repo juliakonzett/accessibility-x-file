@@ -3,8 +3,12 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className='px-[25%] py-[2%] hyphens-auto flex flex-row justify-between items-center bg-blue-950 text-white'>
-      <Link aria-label={'Führt zurück zur Startseite'} tabIndex={0} href={'/'}>
+    <nav className='navbar px-[25%] py-[2%] hyphens-auto flex flex-row justify-between items-center bg-blue-950 text-white'>
+      <Link
+        aria-label={'Führt zurück zur Startseite'}
+        tabIndex={0}
+        href={'/'}
+        className='custom-focus'>
         <Image
           src='/accessibility_logo.png'
           alt='Ein hellblaues Logo mit einem Rollstuhlfahrer Icon in der Mitte'

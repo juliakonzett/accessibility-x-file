@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className='px-[5%] py-[5%] hyphens-auto bg-blue-950 text-white flex flex-col gap-10'>
+    <div className='footer px-[5%] py-[5%] hyphens-auto bg-blue-950 text-white flex flex-col gap-10'>
       <Link
         aria-label='Öffnet Navigationsseite im gleichen Tab'
         href='/'
-        className='flex flex-row gap-4 items-center'>
+        className='custom-focus flex flex-row gap-4 items-center'>
         <Image
           src='/accessibility_logo.png'
           alt='Ein hellblaues Logo mit einem Rollstuhlfahrer Icon in der Mitte'
@@ -24,10 +24,10 @@ export default function Footer() {
       <div className='flex flex-row justify-between w-full'>
         {/* Kontakt */}
         <div className='flex flex-col gap-2'>
-          <h2>Kontakt</h2>
-          <p>Julia Konzett</p>
-          <p>jko9561@students.fhv.at</p>
-          <p>Fachhochschule Vorarlberg</p>
+          <h4 className='text-2xl'>Kontakt</h4>
+          <span>Julia Konzett</span>
+          <span>jko9561@students.fhv.at</span>
+          <span>Fachhochschule Vorarlberg</span>
         </div>
 
         {/* Navigation */}
