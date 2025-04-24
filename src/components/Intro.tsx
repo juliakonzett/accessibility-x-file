@@ -4,11 +4,7 @@ export default function Intro() {
       <h1 className='font-semibold text-6xl'>
         Auswirkungen des Barrierefreiheitsgesetzes
       </h1>
-      <h2 className='font-medium text-4xl'>
-        Wie werden die gesetzlichen Grundlagen durch den Einsatz der
-        WCAG-Standards konkret umgesetzt und welche Herausforderungen ergeben
-        sich im Zuge der Implementierung von Barrierefreiheit im E-Commerce?
-      </h2>
+      <h2 className='font-medium text-4xl'>Design Science</h2>
       <p className='font-serif italic'>- Bachelorarbeit von Julia Konzett</p>
       <p>
         Die folgenden implementierten Module sind Teil des Design Science
