@@ -39,3 +39,13 @@ body.contrast h4 {
 body.contrast img {
   filter: invert(100%) brightness(150%);
 }
+
+body.contrast .back-to-top,
+body.contrast .back-to-top span {
+  background-color: #ffff00 !important;
+  color: #000000 !important;
+}
+
+body.contrast .back-to-top img {
+  filter: none !important;
+}

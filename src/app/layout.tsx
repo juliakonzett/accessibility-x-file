@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FuncitonsBar from '@/components/FunctionsBar';
+import BackToTopButton from '@/components/BackToTopButton';
 
 export const metadata: Metadata = {
   title: 'Barrierefreiheit',
@@ -21,6 +22,7 @@ export default function RootLayout({
         <Navbar />
         <main className='flex-grow'>{children}</main>
         <Footer />
+        <BackToTopButton />
       </body>
     </html>
   );
