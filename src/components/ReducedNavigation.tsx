@@ -1,7 +1,7 @@
 export default function ReducedNavigation() {
   return (
     <div>
-      <h2 className='font-medium text-4xl my-8'># Reduzierte Navigation</h2>
+      <h2 className='font-medium text-4xl my-8'># Navigation</h2>
       <p>
         Die Navigation ist in ein "nav"-Element eingebettet, wodurch
         Screenreader und andere assistive Technologien die Navigation als

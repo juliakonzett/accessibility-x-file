@@ -23,10 +23,31 @@ export default function Footer() {
       <div className='flex flex-row justify-between w-full'>
         {/* Kontakt */}
         <div className='flex flex-col gap-2'>
-          <span>Kontakt</span>
-          <span>Julia Konzett</span>
-          <span>jko9561@students.fhv.at</span>
-          <span>Fachhochschule Vorarlberg</span>
+          <span>Julia Konzett & Dominik Illmer</span>
+          <span>
+            <strong>
+              <a
+                aria-label='Öffnet die WCAG 2.2 in einem neuen Tab'
+                target='blank'
+                className='underline underline-offset-4 custom-focus'
+                tabIndex={0}
+                href='https://www.w3.org/TR/WCAG22/'>
+                Web Content Accessibility Guidelines (WCAG) 2.2
+              </a>
+              <br />
+            </strong>
+            <strong>
+              <a
+                aria-label='Öffnet das Barrierefreiheitsgesetz in einem neuen Tab'
+                target='blank'
+                tabIndex={0}
+                className='underline underline-offset-4 custom-focus'
+                href='https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2023_I_76/BGBLA_2023_I_76.html'>
+                Barrierefreiheitsgesetz
+              </a>
+              <br />
+            </strong>
+          </span>
         </div>
 
         {/* Navigation */}

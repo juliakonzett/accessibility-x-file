@@ -23,7 +23,7 @@ export default function Navbar() {
         tabIndex={0}
         href='#navigation'
         className='custom-focus'>
-        Reduzierte Navigation
+        Navigation
       </Link>
       <Link
         aria-label={'Scrollt zum Abschnitt der Seite der Skalierungsfunktion'}

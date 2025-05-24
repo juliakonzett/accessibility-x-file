@@ -4,39 +4,20 @@ export default function Intro() {
       <h1 className='font-semibold text-6xl'>
         Auswirkungen des Barrierefreiheitsgesetzes
       </h1>
-      <h2 className='font-medium text-4xl'>Design Science</h2>
-      <p className='font-serif italic'>- Bachelorarbeit von Julia Konzett</p>
+      <p className='font-serif italic'>- Julia & Dominik</p>
       <p>
-        Die folgenden implementierten Module sind Teil des Design Science
-        Ansatzes für die oben genannte Bachelorarbeit. <br />
-        Diese Module werden entwickelt um die Barrierefreiheit im Web, mit den
-        Standards der WCAG 2.2, darzustellen. <br />
+        Stell dir vor: E.T. steht am Rand unseres digitalen Universums, sein
+        leuchtender Finger ausgestreckt – und doch bleibt der Weg heimwärts
+        versperrt. Nicht der Funkspruch zu seinem Planeten ist sein Hindernis,
+        sondern die unsichtbaren Gitternetze und Schranken auf unseren
+        Webseiten. Solange wir Barrieren im Netz dulden – seien es knallharte
+        Captchas, undurchsichtige Navigationen oder fehlende
+        Screenreader-Unterstützung – bleibt E.T. auf der Erde gestrandet. Erst
+        wenn wir jede Online-Barriere beseitigen, die seinen Pfad versperrt,
+        wird sein Rufschrei die Stille durchbrechen und ihn endlich zurück in
+        die Sterne katapultieren. Bis dahin ist kein „Nach-Hause-Telefonat“
+        möglich – denn Freiheit im Web ist sein einziger Schlüssel zum Heimflug.
         <br />
-        Die Standards und Richtlinien der Web Content Accessibility Guidelines
-        (WCAG) 2.2 finden Sie{' '}
-        <strong>
-          <a
-            aria-label='Öffnet die WCAG 2.2 in einem neuen Tab'
-            target='blank'
-            className='underline underline-offset-4 custom-focus'
-            tabIndex={0}
-            href='https://www.w3.org/TR/WCAG22/'>
-            hier
-          </a>
-          . <br />
-        </strong>
-        Das österreichische Barrierefreiheitsgesetz finden Sie{' '}
-        <strong>
-          <a
-            aria-label='Öffnet das Barrierefreiheitsgesetz in einem neuen Tab'
-            target='blank'
-            tabIndex={0}
-            className='underline underline-offset-4 custom-focus'
-            href='https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2023_I_76/BGBLA_2023_I_76.html'>
-            hier
-          </a>
-          . <br />
-        </strong>
       </p>
     </div>
   );
