@@ -3,10 +3,15 @@ import Image from 'next/image';
 export default function Intro() {
   return (
     <div className='flex flex-col gap-8'>
-      <h1 className='font-semibold text-2xl md:text-6xl hyphens-auto'>
+      <h1
+        tabIndex={0}
+        className='font-semibold text-2xl md:text-6xl hyphens-auto'>
         Auswirkungen des Barrierefreiheitsgesetzes
       </h1>
-      <div id='introWrapper' className='flex flex-row gap-10 items-center'>
+      <div
+        tabIndex={0}
+        id='introWrapper'
+        className='flex flex-row gap-10 items-center'>
         <div id='introImg' className='relative w-2/3 h-[403px]'>
           <Image
             src='/e.t.phoning.png'
@@ -19,7 +24,7 @@ export default function Intro() {
         </div>
 
         <div id='introText' className='w-1/3'>
-          <p>
+          <p tabIndex={0}>
             Stell dir vor: E.T. steht am Rand unseres digitalen Universums, sein
             leuchtender Finger ausgestreckt – und doch bleibt der Weg heimwärts
             versperrt. Nicht der Funkspruch zu seinem Planeten ist sein

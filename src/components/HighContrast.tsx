@@ -3,8 +3,10 @@ import Image from 'next/image';
 export default function HighContrast() {
   return (
     <div>
-      <h2 className='font-medium text-xl md:text-4xl my-8'># Hochkontrast</h2>
-      <p>
+      <h2 tabIndex={0} className='font-medium text-xl md:text-4xl my-8'>
+        # Hochkontrast
+      </h2>
+      <p tabIndex={0}>
         Ein Button in der Leiste schaltet zwischen Normal- und
         Hochkontrast-Modus um. Er hat ein aria-label namens „Kontrastmodus ein-
         oder ausschalten“, damit Screenreader seine Funktion vorlesen können. Du

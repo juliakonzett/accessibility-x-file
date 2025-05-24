@@ -24,8 +24,10 @@ export default function Contact() {
 
   return (
     <div>
-      <h2 className='font-medium text-xl md:text-4xl my-8'># Kontakt</h2>
-      <p className='mb-7'>
+      <h2 tabIndex={0} className='font-medium text-xl md:text-4xl my-8'>
+        # Kontakt
+      </h2>
+      <p tabIndex={0} className='mb-7'>
         Diese Komponente zeigt ein einfaches Kontakt­formular. Du kannst
         Vorname, Nachname, E-Mail und eine Nachricht eingeben. Jeder Tastendruck
         speichert deinen Text im Hintergrund. Wenn du auf „Senden“ klickst,

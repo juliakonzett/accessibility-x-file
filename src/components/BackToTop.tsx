@@ -3,8 +3,10 @@ import Image from 'next/image';
 export default function BackToTop() {
   return (
     <div>
-      <h2 className='font-medium text-xl md:text-4xl my-8'># Back To Top</h2>
-      <p>
+      <h2 tabIndex={0} className='font-medium text-xl md:text-4xl my-8'>
+        # Back To Top
+      </h2>
+      <p tabIndex={0}>
         Nach 100 Pixeln Scrollen erscheint ein Feld, mit dem du zurück ganz nach
         oben springen kannst. Es ist als „div“ mit role="button" und tabIndex=0
         eingerichtet, damit du es auch per Tab und Enter/Leertaste bedienen

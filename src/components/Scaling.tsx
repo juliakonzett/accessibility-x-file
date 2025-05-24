@@ -3,10 +3,10 @@ import Image from 'next/image';
 export default function Scaling() {
   return (
     <div>
-      <h2 className='font-medium text-xl md:text-4xl my-8'>
+      <h2 tabIndex={0} className='font-medium text-xl md:text-4xl my-8'>
         # Skalierungsfunktion
       </h2>
-      <p>
+      <p tabIndex={0}>
         Mit einem Knopf in der Leiste kannst du die Schrift auf das Doppelte
         vergrößern oder wieder zurücksetzen. Dein Browser merkt sich die
         Einstellung, auch wenn du die Seite neu lädst. Der Knopf ist leicht mit

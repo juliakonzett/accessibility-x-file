@@ -3,8 +3,10 @@ import Image from 'next/image';
 export default function ReducedNavigation() {
   return (
     <div>
-      <h2 className='font-medium text-xl md:text-4xl my-8'># Navigation</h2>
-      <p>
+      <h2 tabIndex={0} className='font-medium text-xl md:text-4xl my-8'>
+        # Navigation
+      </h2>
+      <p tabIndex={0}>
         Die Navigation steht in einem „nav“-Container. So erkennen
         Hilfsprogramme wie Screenreader sofort, dass es sich um die
         Haupt-Navigation handelt. Jeder Menüpunkt ist ein klickbarer Link mit
