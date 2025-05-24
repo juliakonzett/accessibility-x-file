@@ -55,30 +55,16 @@ export default function Footer() {
           <Link
             aria-label='Scrollt zum Abschnitt der Seite der Reduzierten Navigation'
             tabIndex={0}
-            href='#navigation'
+            href='#intro'
             className='custom-focus'>
-            Navigation
+            Intro
           </Link>
           <Link
             aria-label='Scrollt zum Abschnitt der Seite der Skalierungsfunktion'
             tabIndex={0}
-            href='#scaling'
+            href='#module'
             className='custom-focus'>
-            Skalierungsfunktion
-          </Link>
-          <Link
-            aria-label='Scrollt zum Abschnitt der Seite der Hochkontrastfunktion'
-            tabIndex={0}
-            href='#contrast'
-            className='custom-focus'>
-            Hochkontrast
-          </Link>
-          <Link
-            aria-label='Scrollt zum Abschnitt der Seite des Back to Top Buttons'
-            tabIndex={0}
-            href='#backToTop'
-            className='custom-focus'>
-            Back to Top
+            Module
           </Link>
         </div>
       </div>

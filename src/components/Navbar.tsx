@@ -17,34 +17,38 @@ export default function Navbar() {
         />
       </Link>
       <Link
+        aria-label={'Scrollt zum Abschnitt der Seite der Skalierungsfunktion'}
+        tabIndex={0}
+        href='#intro'
+        className='custom-focus'>
+        Intro
+      </Link>
+      <Link
         aria-label={
           'Scrollt zum Abschnitt der Seite der Reduzierten Navigation'
         }
         tabIndex={0}
-        href='#navigation'
+        href='#module'
         className='custom-focus'>
-        Navigation
+        Module
       </Link>
       <Link
-        aria-label={'Scrollt zum Abschnitt der Seite der Skalierungsfunktion'}
+        aria-label={
+          'Scrollt zum Abschnitt der Seite der Reduzierten Navigation'
+        }
         tabIndex={0}
-        href='#scaling'
+        href='#footer'
         className='custom-focus'>
-        Skalierungsfunktion
+        WCAG 2.2
       </Link>
       <Link
-        aria-label={'Scrollt zum Abschnitt der Seite der Hochkontrastfunktion'}
+        aria-label={
+          'Scrollt zum Abschnitt der Seite der Reduzierten Navigation'
+        }
         tabIndex={0}
-        href='#contrast'
+        href='#footer'
         className='custom-focus'>
-        Hochkontrast
-      </Link>
-      <Link
-        aria-label={'Scrollt zum Abschnitt der Seite des Back to Top Buttons'}
-        tabIndex={0}
-        href='#backToTop'
-        className='custom-focus'>
-        Back to Top
+        BaFG
       </Link>
     </nav>
   );

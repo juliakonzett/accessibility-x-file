@@ -21,7 +21,9 @@ export default function RootLayout({
         <FuncitonsBar />
         <Navbar />
         <main className='flex-grow'>{children}</main>
-        <Footer />
+        <section id='footer'>
+          <Footer />
+        </section>
         <BackToTopButton />
       </body>
     </html>

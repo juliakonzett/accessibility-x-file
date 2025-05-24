@@ -11,16 +11,10 @@ export default function Home() {
         <section id='intro'>
           <Intro />
         </section>
-        <section id='navigation'>
+        <section id='module'>
           <ReducedNavigation />
-        </section>
-        <section id='scaling'>
           <Scaling />
-        </section>
-        <section id='contrast'>
           <HighContrast />
-        </section>
-        <section id='backToTop'>
           <BackToTop />
         </section>
       </div>
