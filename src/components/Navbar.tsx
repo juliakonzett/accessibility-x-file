@@ -17,7 +17,7 @@ export default function Navbar() {
         />
       </Link>
       <Link
-        aria-label={'Scrollt zum Abschnitt der Seite der Skalierungsfunktion'}
+        aria-label={'Scrollt zum Abschnitt Intro'}
         tabIndex={0}
         href='#intro'
         className='custom-focus'>
@@ -25,7 +25,7 @@ export default function Navbar() {
       </Link>
       <Link
         aria-label={
-          'Scrollt zum Abschnitt der Seite der Reduzierten Navigation'
+          'Scrollt zum Abschnitt Module'
         }
         tabIndex={0}
         href='#module'
@@ -34,7 +34,7 @@ export default function Navbar() {
       </Link>
       <Link
         aria-label={
-          'Scrollt zum Abschnitt der Seite der Reduzierten Navigation'
+          'Scrollt zum Ende der Seite zum Link zur Web Content Accessibility Guidelines'
         }
         tabIndex={0}
         href='#footer'
@@ -43,7 +43,7 @@ export default function Navbar() {
       </Link>
       <Link
         aria-label={
-          'Scrollt zum Abschnitt der Seite der Reduzierten Navigation'
+          'Scrollt zum Ende der Seite zum Link zum Barrierefreiheitsgesetz'
         }
         tabIndex={0}
         href='#footer'
