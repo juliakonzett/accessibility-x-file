@@ -15,7 +15,7 @@ export default function Intro() {
         möglich – denn Freiheit im Web ist sein einziger Schlüssel zum Heimflug.
         <br />
       </p>
-      <h1 className='font-semibold text-2xl md:text-6xl'>
+      <h1 className='font-semibold text-2xl md:text-6xl hyphens-auto'>
         Auswirkungen des Barrierefreiheitsgesetzes
       </h1>
       <p className='font-serif italic'>- Julia & Dominik</p>

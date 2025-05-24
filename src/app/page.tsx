@@ -5,6 +5,7 @@ import HighContrast from '@/components/HighContrast';
 import BackToTop from '@/components/BackToTop';
 import Contact from '@/components/ContactForm';
 import ProductSlider from '@/components/ProductSlider';
+import KpiTeaser from '@/components/KpiTeaser';
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
         <section id='intro'>
           <Intro />
         </section>
-        <section id='module'>
+        <section id='module' className='flex flex-col gap-10'>
           <Contact />
+          {/* <KpiTeaser /> NOT important for accessibility, so it will not be shown in presentation*/}
           {/* <ProductSlider />  NOT fixed yet, so it will not be shown in presentation*/}
           <ReducedNavigation />
           <Scaling />

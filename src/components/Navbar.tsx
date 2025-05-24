@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className='navbar px-[10%] md:px-[20%] py-[2%] flex flex-row gap-4 justify-between items-center bg-blue-950 text-white'>
+    <nav className='w-full navbar px-[10%] md:px-[20%] py-[2%] flex flex-row gap-4 justify-between items-center bg-blue-950 text-white'>
       <Link
         href='/'
         aria-label='Führt zurück zur Startseite'

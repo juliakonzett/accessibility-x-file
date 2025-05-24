@@ -67,3 +67,11 @@ body.contrast #module img {
 body.contrast #produktTitle p {
   color: #000000 !important;
 }
+
+html[style*="--scale: 2"] #kpiLabelTitle, #kpiLabel {
+  font-size: 1rem !important;
+}
+html[style*="--scale: 2"] #kpiWrapper {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
