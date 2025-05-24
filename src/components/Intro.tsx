@@ -7,7 +7,7 @@ export default function Intro() {
         Auswirkungen des Barrierefreiheitsgesetzes
       </h1>
       <div id='introWrapper' className='flex flex-row gap-10 items-center'>
-        <div id='introImg' className='relative w-1/2 h-[403px]'>
+        <div id='introImg' className='relative w-2/3 h-[403px]'>
           <Image
             src='/e.t.phoning.png'
             alt='E.T. versucht nach Hause zu telefonieren aber die Barrieren halten ihn auf.'
@@ -18,7 +18,7 @@ export default function Intro() {
           />
         </div>
 
-        <div id='introText' className='w-1/2'>
+        <div id='introText' className='w-1/3'>
           <p>
             Stell dir vor: E.T. steht am Rand unseres digitalen Universums, sein
             leuchtender Finger ausgestreckt – und doch bleibt der Weg heimwärts
