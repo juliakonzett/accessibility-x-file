@@ -49,3 +49,17 @@ body.contrast .back-to-top span {
 body.contrast .back-to-top img {
   filter: none !important;
 }
+
+body.contrast .send-button,
+body.contrast .send-button span {
+  background-color: #ffff00 !important;
+  color: #000000 !important;
+}
+
+body.contrast .send-button img {
+  filter: none !important;
+}
+
+body.contrast #module img {
+  filter: none !important;
+}

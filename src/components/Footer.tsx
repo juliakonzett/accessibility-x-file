@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className='footer px-[5%] py-[5%] hyphens-auto bg-blue-950 text-white flex flex-col gap-10'>
+    <div className='footer px-[5%] py-[5%] bg-blue-950 text-white flex flex-col gap-10'>
       <Link
         href='/'
         aria-label='Führt zurück zur Startseite'
@@ -32,7 +32,7 @@ export default function Footer() {
                 className='underline underline-offset-4 custom-focus'
                 tabIndex={0}
                 href='https://www.w3.org/TR/WCAG22/'>
-                Web Content Accessibility Guidelines (WCAG) 2.2
+                WCAG 2.2
               </a>
               <br />
             </strong>

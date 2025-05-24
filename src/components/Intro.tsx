@@ -1,10 +1,6 @@
 export default function Intro() {
   return (
     <div className='flex flex-col gap-8'>
-      <h1 className='font-semibold text-6xl'>
-        Auswirkungen des Barrierefreiheitsgesetzes
-      </h1>
-      <p className='font-serif italic'>- Julia & Dominik</p>
       <p>
         Stell dir vor: E.T. steht am Rand unseres digitalen Universums, sein
         leuchtender Finger ausgestreckt – und doch bleibt der Weg heimwärts
@@ -19,6 +15,10 @@ export default function Intro() {
         möglich – denn Freiheit im Web ist sein einziger Schlüssel zum Heimflug.
         <br />
       </p>
+      <h1 className='font-semibold text-2xl md:text-6xl'>
+        Auswirkungen des Barrierefreiheitsgesetzes
+      </h1>
+      <p className='font-serif italic'>- Julia & Dominik</p>
     </div>
   );
 }
