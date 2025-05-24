@@ -57,7 +57,7 @@ export default function Footer() {
             tabIndex={0}
             href='#navigation'
             className='custom-focus'>
-            Reduzierte Navigation
+            Navigation
           </Link>
           <Link
             aria-label='Scrollt zum Abschnitt der Seite der Skalierungsfunktion'
