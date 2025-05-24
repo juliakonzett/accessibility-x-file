@@ -4,6 +4,7 @@ import Scaling from '@/components/Scaling';
 import HighContrast from '@/components/HighContrast';
 import BackToTop from '@/components/BackToTop';
 import Contact from '@/components/ContactForm';
+import ProductSlider from '@/components/ProductSlider';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         </section>
         <section id='module'>
           <Contact />
+          {/* <ProductSlider />  NOT fixed yet, so it will not be shown in presentation*/}
           <ReducedNavigation />
           <Scaling />
           <HighContrast />

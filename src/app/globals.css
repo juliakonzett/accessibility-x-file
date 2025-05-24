@@ -63,3 +63,7 @@ body.contrast .send-button img {
 body.contrast #module img {
   filter: none !important;
 }
+
+body.contrast #produktTitle p {
+  color: #000000 !important;
+}
