@@ -60,10 +60,26 @@ body.contrast .send-button img {
   filter: none !important;
 }
 
-body.contrast #module img {
+body.contrast #module img, #intro img {
   filter: none !important;
 }
 
 body.contrast #produktTitle p {
   color: #000000 !important;
+}
+
+html[style*="--scale: 2"] #kpiLabelTitle, #kpiLabel {
+  font-size: 1rem !important;
+}
+html[style*="--scale: 2"] #kpiWrapper {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+
+html[style*="--scale: 2"] #introWrapper {
+  flex-direction: column !important;
+}
+
+html[style*="--scale: 2"] #introImg, #introText {
+  width: 100% !important;
 }

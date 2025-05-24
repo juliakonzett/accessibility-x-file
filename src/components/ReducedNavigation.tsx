@@ -17,7 +17,7 @@ export default function ReducedNavigation() {
       <div className='relative w-full h-12 md:h-16 my-4'>
         <Image
           src='/nav.png'
-          alt='Ein Bild der Navigation, im hellem Modus, in welcher ein Link Element fokusiert ist'
+          alt='Ein Bild der Navigation, im dunklen Modus, in welcher ein Link Element fokusiert ist'
           fill
           style={{ objectFit: 'contain' }}
           sizes='(max-width: 768px) 100vw, 800px'
@@ -28,7 +28,7 @@ export default function ReducedNavigation() {
       <div className='relative w-full h-12 md:h-16 my-4'>
         <Image
           src='/nav2.png'
-          alt='Ein Bild der Navigation, im dunklen Modus, in welcher ein Link Element fokusiert ist'
+          alt='Ein Bild der Navigation, im hellen Modus, in welcher ein Link Element fokusiert ist'
           fill
           style={{ objectFit: 'contain' }}
           sizes='(max-width: 768px) 100vw, 800px'
